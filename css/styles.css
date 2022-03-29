@@ -1,0 +1,105 @@
+/*primary: #ae2012 
+secundary: #005f73
+danger: #bb3e03
+info: #e9d8a6 */
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.container {
+    width: 95%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5em;
+    margin: 0 0.1em;
+    border-radius: 0.5em;
+    border-style: solid;
+
+}
+
+.btn-primary {
+    background-color: #ae2012;
+    color: black;
+}
+
+.btn-secundary {
+    background-color: #005f73;
+    color: black;
+}
+
+.btn-danger {
+    background-color: #bb3e03;
+    color: black;
+}
+
+.btn-info {
+    background-color: #e9d8a6;
+    color: black;
+}
+
+.logo {
+    font-size: 3rem;
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: black;
+    background-color: #bb3e03;
+    border-radius: 0.4em;
+    border-style: solid;
+    text-decoration-color: azure;
+}
+
+.card {
+    width: 20rem;
+    overflow: hidden;
+    background-color: #005f73;
+    color: white;
+    border-radius: 0.5em;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-body {
+    padding: 1em;
+}
+
+.card-body h5 {
+    font-size: 1.5rem;
+    margin: 1em 0;
+    font-weight: 900px;
+}
+
+.card-body p {
+    font-weight: 300;
+    text-align: center;
+    text-align: justify;
+}
